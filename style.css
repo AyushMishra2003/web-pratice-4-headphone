@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+    gap: 4rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: cadetblue;
+}
+li{
+    list-style: none;
+}
+header{
+    display: flex;
+    width: 100vw;
+    justify-content:space-around;
+    align-items: center;
+    position: relative;
+}
+.logo img{
+    width: 5rem;
+}
+nav{
+    display: flex;
+    gap: 1rem;
+}
+.shop{
+    padding: 0.1rem 1.5rem;
+    color: white;
+    background-color: #000;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    transition: 1s;
+}
+.shop:hover{
+    background-color: red;
+}
+main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.boatimage{
+    position: absolute;
+    top: 0%;
+    left:30%;
+}
+.boatimage img{
+    width:9rem;
+}
+.mainimg{
+    opacity: 0.6;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 20rem;
+    margin-left: 26rem;
+    gap: 1rem;
+}
+.main-content img{
+    width: 17rem;
+}
+.subcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.addtoblog{
+    /* width: fit-content; */
+    padding: 0.2rem 2rem;
+    background-color:black;
+    color: white;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.addtoblog:hover{
+    background-color: red;
+    border-radius: 2rem;
+    transform: scaleY(1.3)
+    /* transform: rotate(360deg); */
+}
+.fa-bag-shopping{
+    font-size: 1.2em;
+}
+.subcontentpara{
+    font-weight: 300;
+}
+.main-icon{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 7rem;
+}
+.subicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+}
+.subicon h1{
+    font-size: 1.5rem;
+}
+.subicon i{
+    font-size: 2rem;
+}
+.section1{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.sec1img{
+    opacity: 0.3;
+}
+.sec1content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 10rem;
+}
+.left i{
+    font-size: 1.5rem;
+    color: cadetblue;
+}
+.subleftsec1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.subleftsec4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.sec2content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.sec2left img{
+    width: 11rem;
+}
+.sec2img{
+    opacity: 0.2;
+}
+.sec2right{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 15rem;
+}
+.moreinfo{
+    width: fit-content;
+    padding: 0.8rem 3rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s;
+
+}
+.moreinfo p{
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+.moreinfo:hover{
+    background-color: red;
+    border-radius: 1rem;
+}
+
+.sec4cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55rem;
+    /* height: 14rem; */
+    padding: 3rem;
+    gap: 2rem;
+    opacity: 10;
+    background-color:rgb(24, 24, 24);
+    border-radius: 1rem;
+}
+.sec4left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 16rem;
+}
+.immense{
+    font-size: 1.5rem;
+}
+.buynow{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    padding: 0.3rem 1rem;
+    gap: 1rem;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.buynow i{
+    font-size: 1.5rem;
+    color:antiquewhite;
+}
+.buynow:hover{
+    background-color: red;
+    border-radius: 1rem;
+}
+.sec4right img{
+    width: 16rem;
+}
+
+.section5{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.sec5img{
+    width: 13rem;
+    opacity: 0.2;
+}
+.sec5con1{
+    display: flex;
+    gap: 4rem;
+}
+.sub1sec5con1{ 
+    position: relative;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    gap: 2rem;
+    width: 12rem;
+    height: 10rem;
+}
+.sub1sec5img {
+   position: absolute;
+   /* top: 5rem;
+   left:  20rem; */
+    top: -18%;
+}
+.sub1sec5img img{
+    width: 6rem;
+}
+.sub2sec5img{
+   position: absolute;
+   top: 5rem;
+   left:  44rem;
+   border: 2px solid red;
+}
+.sub2sec5img img{
+   width: 6rem;
+}
+.child1sub1sec5con1{
+    display: flex;
+    flex-direction: column;
+}
+.Black{
+    font-weight: 600;   
+     font-size: 0.8rem;
+}
+.num{
+    font-size: 0.8rem;
+}
+.sub1sec5con1 i{
+    font-size: 1.5rem;
+    /* border: 2px solid red; */
+}
+/* BAG CSS */
+.child2sub1sec5con1{
+    border: 1px solid white;
+    background-color: black;
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid green; */
+}
+
+.sub1sec5con1:hover{
+    transform:scaleX(1.5);
+    border-radius: 1.5rem;
+}
+
+/* FOOT */
+footer{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100vw;
+    gap: 10rem;
+    background-color: rgb(24, 24, 24);
+    padding-top: 2rem;
+}
+.footlogo img{
+    width: 3rem;
+}
+.footbutton{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+input{
+    padding: 0.2rem 3rem;
+    /* background-color: rgb(24, 24, 24); */
+    color: white;
+}
+.footlink{
+    display: flex;
+    gap: 2rem;
+}
+.footbtn{
+    position: relative;
+    display: flex;
+}
+.subsribe{
+    padding: 0.2rem 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    position: absolute;
+    left: 52%;
+}
+.footlink i:hover{
+    border: 2px solid cornflowerblue;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: red;
+    transform: scaleX(2);
+}
